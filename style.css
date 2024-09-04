@@ -1,0 +1,115 @@
+@font-face {
+    font-family: ClashDisplay;
+    src: url("/assets/fonts/ClashDisplay-Semibold.ttf");
+}
+
+@font-face {
+    font-family: satoshi;
+    src: url("/assets/fonts/Satoshi-Regular.ttf");
+}
+
+@font-face {
+    font-family: satoshiBold;
+    src: url("/assets/fonts/Satoshi-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: satoshi;
+}
+
+.cursor {
+    background-color: #000000;
+    position: fixed;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    z-index: 1000;
+    transform-origin: center center;
+    pointer-events: none;
+    transition: transform .3s ease;
+    background-position: center;
+    background-size: cover;
+    transition: background-image ease 0.5s;
+    transition: all linear 0.06s;
+}
+
+.color {
+    background-color: #0000001f;
+    transform: scale(2.5);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgb(163, 162, 162);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-left .logo img {
+    width: 60px;
+}
+
+.nav-left .link-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-left .link-list ul li a {
+    text-decoration: none;
+    font-family: satoshiBold;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right .serachDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.nav-right .searchbar {
+    padding: 5px;
+    outline: 0;
+    width: 300px;
+    border: 0;
+}
+
+.nav-right .serachDiv .searchLogo {
+    display: flex;
+    padding: 5px;
+}
+
+.nav-right .serachDiv .searchLogo img {
+    width: 20px;
+}
+
+.dummy{
+    width: 100%;
+    height: 80vh;
+}
