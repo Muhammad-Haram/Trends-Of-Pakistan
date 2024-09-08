@@ -245,9 +245,9 @@ nav {
 
 /* latest news complete */
 
-/* sports page  */
+/* All pages  */
 
-.sports-section-top {
+.page-section-top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,7 +255,7 @@ nav {
     padding: 200px 0;
 }
 
-.sports-section-top-h1 {
+.page-section-top-h1 {
     font-family: Panchang;
     color: white;
     font-size: 70px;

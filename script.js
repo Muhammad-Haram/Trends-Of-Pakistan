@@ -42,3 +42,14 @@ body.addEventListener("mousemove", function (location) {
       cursor.classList.remove("cursor-none");
     });
   });
+
+  //swiper
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
