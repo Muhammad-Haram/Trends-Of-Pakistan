@@ -145,9 +145,14 @@ nav {
 
 /* trend news */
 
-.trend-news-section {
+.top-news-section {
     width: 100%;
     padding: 30px 60px;
+}
+
+.trend-news-section{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #000;
 }
 
 .category-title {
@@ -165,7 +170,6 @@ nav {
 
 .trend-news .trend-news-left {
     width: 50%;
-    height: 100%;
     border: 1px solid #000;
     border-radius: 20px;
     border-top-right-radius: 0;
