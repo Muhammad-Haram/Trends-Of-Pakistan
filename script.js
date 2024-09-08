@@ -42,3 +42,4 @@ body.addEventListener("mousemove", function (location) {
       cursor.classList.remove("cursor-none");
     });
   });
+

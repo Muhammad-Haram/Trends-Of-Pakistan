@@ -23,6 +23,23 @@
     margin: 0;
     box-sizing: border-box;
     font-family: satoshi;
+
+    ::selection {
+        background-color: #000000;
+        color: white;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:black;
 }
 
 .cursor {
@@ -126,9 +143,9 @@ nav {
 
 /* navbar complete */
 
-/* latest news */
+/* trend news */
 
-.latest-news-section {
+.trend-news-section {
     width: 100%;
     padding: 30px 60px;
 }
@@ -139,14 +156,14 @@ nav {
     margin-bottom: 20px;
 }
 
-.latest-news {
+.trend-news {
     display: flex;
     overflow: hidden;
     height: 100%;
     /* gap: 20px; */
 }
 
-.latest-news .latest-news-left {
+.trend-news .trend-news-left {
     width: 50%;
     height: 100%;
     border: 1px solid #000;
@@ -157,7 +174,7 @@ nav {
     overflow: hidden;
 }
 
-.latest-news .latest-news-left .latest-news-left-title {
+.trend-news .trend-news-left .trend-news-left-title {
     font-size: 35px;
 }
 
@@ -182,12 +199,12 @@ nav {
     text-decoration: none;
 }
 
-.latest-news .latest-news-left .imageDiv img {
+.trend-news .trend-news-left .imageDiv img {
     width: 100%;
     border-radius: 10px;
 }
 
-.latest-news .latest-news-right {
+.trend-news .trend-news-right {
     width: 50%;
     /* height: 100%; */
     border: 1px solid #000;
@@ -203,7 +220,7 @@ nav {
 
 }
 
-.latest-news .latest-news-right .latest-news-side {
+.trend-news .trend-news-right .trend-news-side {
     display: flex;
     align-items: center;
     width: 100%;
@@ -212,20 +229,20 @@ nav {
     padding: 10px 10px;
 }
 
-.latest-news .latest-news-right .latest-news-side-last {
+.trend-news .trend-news-right .trend-news-side-last {
     border: 0;
     border-bottom: 0;
 }
 
-.latest-news-side .latest-news-side-content {
+.trend-news-side .trend-news-side-content {
     width: 60%;
 }
 
-.latest-news-side-content-title {
+.trend-news-side-content-title {
     font-size: 18px;
 }
 
-.latest-news-side-content-para {
+.trend-news-side-content-para {
     font-size: 14px;
     margin-top: 10px;
 }
@@ -234,16 +251,16 @@ nav {
     font-size: 14px;
 }
 
-.latest-news-side .latest-news-side-img {
+.trend-news-side .trend-news-side-img {
     width: 40%;
 }
 
-.latest-news-side .latest-news-side-img img {
+.trend-news-side .trend-news-side-img img {
     width: 100%;
     border-radius: 10px;
 }
 
-/* latest news complete */
+/* trend news complete */
 
 /* sports page  */
 
