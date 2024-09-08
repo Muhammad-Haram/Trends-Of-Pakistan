@@ -43,3 +43,16 @@ body.addEventListener("mousemove", function (location) {
     });
   });
 
+<<<<<<< HEAD
+=======
+  //swiper
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+>>>>>>> 91723dca8d84349b52fe28fadb0aac54b469ca37
