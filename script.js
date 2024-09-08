@@ -43,8 +43,6 @@ body.addEventListener("mousemove", function (location) {
     });
   });
 
-<<<<<<< HEAD
-=======
   //swiper
 
   var swiper = new Swiper(".mySwiper", {
@@ -55,4 +53,3 @@ body.addEventListener("mousemove", function (location) {
       clickable: true,
     },
   });
->>>>>>> 91723dca8d84349b52fe28fadb0aac54b469ca37
