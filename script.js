@@ -46,10 +46,6 @@ body.addEventListener("mousemove", function (location) {
   //swiper
 
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
   });
