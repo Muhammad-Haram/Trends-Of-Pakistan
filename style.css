@@ -80,7 +80,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 30px 60px;
-    border-bottom: 1px solid rgb(163, 162, 162);
+    border-bottom: 1px solid #BBBBBB;
 }
 
 .nav-left {
@@ -119,13 +119,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #BBBBBB;
     border-radius: 50px;
     overflow: hidden;
     padding: 5px;
 }
 
 .nav-right .searchbar {
+    font-size: 14px;
     padding: 5px;
     outline: 0;
     width: 250px;
@@ -152,7 +153,6 @@ nav {
 
 .trend-news-section {
     padding-bottom: 50px;
-    border-bottom: 1px solid #000;
 }
 
 .category-title {
@@ -170,7 +170,7 @@ nav {
 
 .trend-news .trend-news-left {
     width: 50%;
-    border: 1px solid #000;
+    border: 1px solid #BBBBBB;
     border-radius: 20px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -211,7 +211,7 @@ nav {
 .trend-news .trend-news-right {
     width: 50%;
     /* height: 100%; */
-    border: 1px solid #000;
+    border: 1px solid #BBBBBB;
     border-left: 0;
     border-radius: 20px;
     border-top-left-radius: 0;
@@ -229,7 +229,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #BBBBBB;
     padding: 10px 10px;
 }
 
@@ -293,10 +293,16 @@ nav {
     flex-wrap: wrap;
 }
 
-.news-cards .news-single-card{
+.news-cards .news-single-card {
     width: 31%;
 }
 
-.newsCard-img{
+.news-single-card-img{
     width: 100%;
+    height: 250px;
+}
+
+.newsCard-img {
+    width: 100%;
+    height: 100%;
 }
