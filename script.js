@@ -41,6 +41,28 @@ cursorColorNone.forEach((link) => {
   });
 });
 
+let Topictext = document.querySelectorAll(".topic-text");
+Topictext.forEach(function (ele) {
+  ele.addEventListener("mouseenter", function () {
+    let attr = ele.getAttribute("data-img");
+    cursor.style.width = "150px";
+    cursor.style.height = "200px";
+    cursor.style.borderRadius = "10px";
+    cursor.style.backgroundImage = `url(${attr})`;
+    cursor.style.zIndex = 1;
+    // cursor.style.backgroundSize = "cover";
+  });
+
+  ele.addEventListener("mouseleave", function () {
+    cursor.style.width = "20px";
+    cursor.style.height = "20px";
+    cursor.style.borderRadius = "50%";
+    cursor.style.backgroundImage = `none`;
+    cursor.style.zIndex = 1000;
+  });
+});
+
+
 //swiper
 
 var swiper = new Swiper(".mySwiper", {
