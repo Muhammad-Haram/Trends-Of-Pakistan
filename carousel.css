@@ -201,13 +201,15 @@ body {
   transition: width 0.3s 0.2s;
 }
 
-.main-post.main-post--active .main-post__title {
+.main-post.main-post--active .main-post__title,
+.main-post.main-post--active .carousel-brand {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.8s 1.42s, transform 0.5s 1.4s;
 }
 
-.main-post.main-post--not-active .main-post__title {
+.main-post.main-post--not-active .main-post__title,
+.main-post.main-post--not-active .carousel-brand {
   transform: translateY(40px);
   opacity: 0;
   transition: transform 0.2s 0.35s, opacity 0.5s 0.2s;
