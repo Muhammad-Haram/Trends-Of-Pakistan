@@ -276,6 +276,25 @@ nav {
 
 /* trend news complete */
 
+/* footer  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 50px;
+}
+
+.footer-div{
+    width: 100%;
+}
+
+.footer-div .footer-logo{
+    width: 100%;
+}
+
+
 /* All pages  */
 
 .page-section-top {
