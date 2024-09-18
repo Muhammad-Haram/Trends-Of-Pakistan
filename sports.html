@@ -1,98 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports - Trends Of Pakistan</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sports - Trends Of Pakistan</title>
-  <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <div class="cursor"></div>
 
-<body>
-
-  <div class="cursor"></div>
-
-  <nav>
-    <div class="nav-left">
-      <div class="logo">
-        <a class="cursor-color" href="/"><img src="/assets/img/logo.png" alt="" /></a>
-      </div>
-      <div class="link-list">
-        <ul>
-          <li><a class="cursor-color" href="">Trending News</a></li>
-          <li><a class="cursor-color" href="/sports.html">Sports</a></li>
-          <li><a class="cursor-color" href="/tech.html">Tech And Telecom</a></li>
-          <li><a class="cursor-color" href="/health.html">Health</a></li>
-          <li><a class="cursor-color" href="/business.html">Business</a></li>
-          <li><a class="cursor-color" href="/politics.html">Politics</a></li>
-          <li>
-            <a class="cursor-color" href="/entertainments.html">Entertainments</a>
-          </li>
-          <li><a class="cursor-color" href="/education.html">Education</a></li>
-          <li><a class="cursor-color" href="/contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="nav-right">
-      <div class="serachDiv cursor-color">
-        <div class="searchLogo">
-          <img src="/assets/img/search.png" alt="" />
+    <nav>
+      <div class="nav-left">
+        <div class="logo">
+          <a class="cursor-color" href="/"
+            ><img src="/assets/img/logo.png" alt=""
+          /></a>
         </div>
-        <input class="searchbar" type="search" placeholder="search" />
+        <div class="link-list">
+          <ul>
+            <li><a class="cursor-color" href="">Trending News</a></li>
+            <li><a class="cursor-color" href="/sports.html">Sports</a></li>
+            <li>
+              <a class="cursor-color" href="/tech.html">Tech And Telecom</a>
+            </li>
+            <li><a class="cursor-color" href="/health.html">Health</a></li>
+            <li><a class="cursor-color" href="/business.html">Business</a></li>
+            <li><a class="cursor-color" href="/politics.html">Politics</a></li>
+            <li>
+              <a class="cursor-color" href="/entertainments.html"
+                >Entertainments</a
+              >
+            </li>
+            <li>
+              <a class="cursor-color" href="/education.html">Education</a>
+            </li>
+            <li><a class="cursor-color" href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
 
-  <section class="page-section-top cursor-color-white topic-text" data-img="/assets/img/sports.png">
-    <h1 class="page-section-top-h1 cursor-color-none">Sports</h1>
-  </section>
+      <div class="nav-right">
+        <div class="serachDiv cursor-color">
+          <div class="searchLogo">
+            <img src="/assets/img/search.png" alt="" />
+          </div>
+          <input class="searchbar" type="search" placeholder="search" />
+        </div>
+      </div>
+    </nav>
 
- 
-    
-    <div class="container">
-        <div class="latest">
-            <h2>The Latest</h2>
-            <div class="article">
-                <img src="/assets/img/bike.jpg" alt="Adventure Image">
-                <div>
-                    <h3>How to enjoy an outdoor adventure - in the Lake District and beyond</h3>
-                    <p>With festivals, clubs, and courses galore, it’s a great time to try your hand at an open-air activity...</p>
-                    <span>Adventure Hack - 3 mins read</span>
-                </div>
-            </div>
+    <section
+      class="page-section-top cursor-color-white topic-text"
+      data-img="/assets/img/sports.png"
+    >
+      <h1 class="page-section-top-h1 cursor-color-none">Sports</h1>
+    </section>
 
-            <div class="article">
-                <img src="/assets/img/south-africa-cricket.jpg.avif" alt="Adventure Image">
-                <div>
-                    <h3>Inside 75-Year-Old Will French’s Globe-Trotting Adventure</h3>
-                    <p>For most AT thru-hikers, Katahdin is the finish line. For Will French, it was only the halfway...</p>
-                    <span>Hiking - 6 mins read</span>
-                </div>
-            </div>
-
-            <div class="article">
-                <img src="/assets/img/circket.avif" alt="Adventure Image">
-                <div>
-                    <h3>How to Live the Spirit of Adventure</h3>
-                    <p>Iconic ways to make every day count and live a more adventure-filled life...</p>
-                    <span>Adventure Hack - 8 mins read</span>
-                </div>
-            </div>
-
-            <div class="article">
-                <img src="/assets/img/drugs.webp" alt="Adventure Image">
-                <div>
-                    <h3>A New Year's Message from Shannon Stowell</h3>
-                    <p>About a decade ago, I was invited to moderate a sustainability session at a high-profile travel...</p>
-                    <span>Tourism - 5 mins read</span>
-                </div>
+    <div class="pageNews-container">
+      <div class="pageNews-article">
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
             </div>
           </div>
+        </div>
 
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
 
-  <script src="script.js"></script>
-</body>
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-article">
+          <img
+            class="page-article-img"
+            src="/assets/img/england-team.jpg.avif"
+            alt="Adventure Image"
+          />
+          <div>
+            <h1 class="page-article-title">
+              How to enjoy an outdoor adventure - in the Lake District and
+              beyond
+            </h1>
+            <p class="page-article-para">
+              With festivals, clubs, and courses galore, it’s a great time to
+              try your hand at an open-air activity...
+            </p>
+            <!-- <span class="page-article-timeDate">Adventure Hack - 3 mins read</span> -->
+            <div class="page-article-timeDate">
+              <p class="page-article-cate">
+                <a class="page-article-cate-anchor" href="/sports.html"
+                  >Sports</a
+                >
+              </p>
+              <p>|</p>
+              <p>09 Sep 2024</p>
+              <p>|</p>
+              <p>11:20 PM</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="recentBox">
+        <div class="recentBox-2">
+          <div class="recentBox-search">
+            <div class="recentBox-search-img">
+              <img src="/assets/img/search.png" alt="" />
+            </div>
+            <input type="search" placeholder="Search" />
+          </div>
+
+          <div class="recentBox-all">
+            <h1 class="recentBox-para">Recent-news</h1>
+            <a class="recentBox-viewAll" href="/">view all</a>
+          </div>
+
+          <div class="recentBox-posts">
+            <div class="recentBox-post">
+              <div class="recentBox-img">
+                <img
+                  class="recentBox-imgSrc"
+                  src="/assets/img/babar.avif"
+                  alt=""
+                />
+                <div class="recentBox-gradient"></div>
+                <div class="recentBox-post-content">
+                  <div class="recentBox-cate">
+                    <a href="/" class="recentBox-cate-anchor">Sports</a>
+                  </div>
+                  <div class="recentBox-post-content-details">
+                    <h1 class="recentBox-post-content-h1">
+                      Babar Azam Reportedly Set to Lose White-Ball Captaincy
+                    </h1>
+                    <a href="/" class="recentBox-post-content-readMore"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recentBox-post">
+              <div class="recentBox-img">
+                <img
+                  class="recentBox-imgSrc"
+                  src="/assets/img/england-team.jpg.avif"
+                  alt=""
+                />
+                <div class="recentBox-gradient"></div>
+                <div class="recentBox-post-content">
+                  <div class="recentBox-cate">
+                    <a href="/" class="recentBox-cate-anchor">Sports</a>
+                  </div>
+                  <div class="recentBox-post-content-details">
+                    <h1 class="recentBox-post-content-h1">
+                      Here’s England’s Squad for Pakistan Test Series
+                    </h1>
+                    <a href="/" class="recentBox-post-content-readMore"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recentBox-post">
+              <div class="recentBox-img">
+                <img
+                  class="recentBox-imgSrc"
+                  src="/assets/img/bank img.jpg"
+                  alt=""
+                />
+                <div class="recentBox-gradient"></div>
+                <div class="recentBox-post-content">
+                  <div class="recentBox-cate">
+                    <a href="/" class="recentBox-cate-anchor">Business</a>
+                  </div>
+                  <div class="recentBox-post-content-details">
+                    <h1 class="recentBox-post-content-h1">
+                      Brokerage House Expects Further Cut in Policy Rate Next
+                      Week
+                    </h1>
+                    <a href="/" class="recentBox-post-content-readMore"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recentBox-post">
+              <div class="recentBox-img">
+                <img
+                  class="recentBox-imgSrc"
+                  src="/assets/img/books-.jpg.avif"
+                  alt=""
+                />
+                <div class="recentBox-gradient"></div>
+                <div class="recentBox-post-content">
+                  <div class="recentBox-cate">
+                    <a href="/" class="recentBox-cate-anchor">Education</a>
+                  </div>
+                  <div class="recentBox-post-content-details">
+                    <h1 class="recentBox-post-content-h1">
+                      Punjab Makes Major Course Changes for Class 9 and Class 11
+                    </h1>
+                    <a href="/" class="recentBox-post-content-readMore"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="recentBox-post">
+              <div class="recentBox-img">
+                <img
+                  class="recentBox-imgSrc"
+                  src="/assets/img/currency img.jpg"
+                  alt=""
+                />
+                <div class="recentBox-gradient"></div>
+                <div class="recentBox-post-content">
+                  <div class="recentBox-cate">
+                    <a href="/" class="recentBox-cate-anchor">Business</a>
+                  </div>
+                  <div class="recentBox-post-content-details">
+                    <h1 class="recentBox-post-content-h1">
+                      Remittances Sent by Overseas Pakistanis Remain Near $3
+                      Billion for Fourth Straight Month
+                    </h1>
+                    <a href="/" class="recentBox-post-content-readMore"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
