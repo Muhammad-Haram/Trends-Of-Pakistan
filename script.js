@@ -1,8 +1,24 @@
+let navInfo = document.querySelector(".nav-info");
+let nav = document.querySelector(".bar");
+let closeBtn = document.querySelector(".close");
 let cursor = document.querySelector(".cursor");
 let body = document.querySelector("body");
 let cursorColor = document.querySelectorAll(".cursor-color");
 let cursorColorWhite = document.querySelectorAll(".cursor-color-white");
 let cursorColorNone = document.querySelectorAll(".cursor-color-none");
+
+nav.addEventListener("click", () => {
+    if (nav) {
+        navInfo.classList.add("show");
+    }
+});
+
+closeBtn.addEventListener("click", () => {
+    if (closeBtn) {
+        navInfo.classList.remove("show");
+    }
+})
+
 
 // cursor js
 
