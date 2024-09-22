@@ -74,69 +74,6 @@
 }
 
 /* navbar */
-
-.nav-info {
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    position: fixed;
-    top: -150%;
-    transition: 0.3s;
-    z-index: 8;
-}
-
-.nav-info .nav-close {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 60px;
-    border-bottom: 1px solid;
-}
-
-.nav-info .nav-links {
-    width: 100%;
-    height: 100vh;
-    background-color: #00aced;
-}
-
-.nav-close .logo img {
-    width: 60px;
-}
-
-.nav-close .menu-icon{
-    display: flex;
-    align-items: center;
-}
-
-.nav-close .menu-icon img {
-    width: 60px;
-}
-
-.isActive {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-contact a,
-.nav-contact p {
-    color: white;
-    text-decoration: none;
-    font-family: neueHassDisplayThin;
-}
-
-.nav-contact .number {
-    text-decoration: underline;
-    text-decoration-color: #fff;
-}
-
-.show {
-    top: 0px;
-}
-
 /* header */
 #header {
     background-color: white;
@@ -145,6 +82,7 @@
     justify-content: space-between;
     gap: 40px;
     padding: 30px 60px;
+    height: 120px;
 }
 
 .navbar-right {
@@ -153,12 +91,10 @@
     gap: 40px;
 }
 
-.navbar-right .menu-icon{
+.navbar-right .menu-icon {
     display: flex;
     align-items: center;
 }
-
-#header .logo {}
 
 #header .logo img {
     width: 60px;
@@ -171,48 +107,7 @@
 }
 
 #header .menu-icon .menu-icon-img {
-    width: 60px;
-}
-
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 60px;
-    border-bottom: 1px solid #BBBBBB;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.nav-left .logo img {
-    width: 60px;
-}
-
-.nav-left .link-list ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    gap: 20px;
-}
-
-.nav-left .link-list ul li a {
-    text-decoration: none;
-    font-family: satoshiBold;
-    color: black;
-    font-size: 16px;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    width: 70px;
 }
 
 .serachDiv {
@@ -242,6 +137,78 @@ nav {
 .serachDiv .searchLogo img {
     width: 20px;
 }
+
+
+.nav-info {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: -150%;
+    transition: 0.3s;
+    z-index: 8;
+}
+
+.nav-info .nav-close {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-bottom: 1px solid;
+    height: 120px;
+}
+
+.nav-info .nav-links {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-info .nav-links .nav-links-ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav-info .nav-links .nav-links-ul .nav-links-li {
+    width: 100%;
+    padding: 20px 60px;
+    width: 100%;
+    height: 20%;
+}
+
+.nav-info .nav-links .nav-links-ul .nav-links-li:hover {
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.nav-close .logo img {
+    width: 60px;
+}
+
+.nav-close .menu-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-close .menu-icon img {
+    width: 80px;
+}
+
+.isActive {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.show {
+    top: 0px;
+}
+
 
 /* navbar complete */
 
