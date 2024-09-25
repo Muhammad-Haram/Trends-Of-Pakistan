@@ -48,7 +48,7 @@ body {
 .progress-bar__fill {
   width: 0;
   height: inherit;
-  background: #fff;
+  background: #000000;
   transition: all 0.16s;
 }
 
@@ -109,7 +109,7 @@ body {
 
 .main-post__content {
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 4%;
   transform: translateY(-40%);
   color: #fff;
@@ -299,6 +299,14 @@ body {
   .hide-on-desktop {
     display: none;
   }
+
+  .progress-bar__fill {
+    background: #ffffff;
+  }
+
+  .main-post__content {
+    top: 44%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -311,4 +319,5 @@ body {
     transform: translatex(-80%);
     max-width: 70%;
   }
+
 }
