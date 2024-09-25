@@ -847,7 +847,7 @@ p {
     .searchbar {
         width: 210px;
     }
-    
+
     .navbar-right {
         gap: 20px;
     }
@@ -884,7 +884,60 @@ p {
     .trend-news .trend-news-right .trend-news-side {
         padding: 15px 20px;
     }
-    
+
+    .trend-news-side-content-title {
+        font-size: 14px;
+    }
+
+    .timeDate {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        margin: 10px 0px;
+    }
+
+    .timeDate .timeDate-category {
+        background-color: #fff;
+        padding: 0px;
+        border-radius: 0px;
+        display: flex;
+        letter-spacing: 1px;
+        border: 0;
+    }
+
+    .timeDate .timeDate-category a {
+        color: #000;
+        font-weight: 100;
+        text-decoration: none;
+    }
+
+    .timeDate p {
+        font-size: 13px;
+    }
+
+    .news-single-card-h1 {
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .news-cards {
+        align-items: start;
+    }
+
+    .news-cards .news-single-card {
+        width: 45%;
+    }
+
+    .news-single-card-img {
+        height: 150px;
+    }
+
+    .multicard-container {
+        padding: 60px 30px;
+    }
+
 
     footer {
         display: none;

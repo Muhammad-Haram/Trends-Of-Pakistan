@@ -97,3 +97,10 @@
         color: #fff;
         font-size: 20px;
     }
+
+    @media screen and (min-width: 550px) {
+        .swiper-news {
+            padding: 60px 30px;
+            height: 100%;
+        }
+    }
