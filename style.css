@@ -1068,7 +1068,7 @@ p {
     }
 
     #header {
-        gap: 0px;
+        gap: 0  px;
         padding: 0px 10px;
         overflow-x: hidden;
     }
@@ -1086,7 +1086,7 @@ p {
     }
 
     .navbar-right {
-        gap: 10px;
+        gap: 20px;
     }
 
     .serachDiv {
