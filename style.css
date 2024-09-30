@@ -1054,7 +1054,7 @@ p {
 
 }
 
-@media screen and (min-width: 310px) and (max-width:479px) {
+@media screen and (min-width: 310px) and (max-width:599px) {
     /* * {
         border: 1px solid red;
     } */
@@ -1256,7 +1256,7 @@ p {
     /* next page  */
 
     .page-section-top-h1 {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     .pageNews-container {
